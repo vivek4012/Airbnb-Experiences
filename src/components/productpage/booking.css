@@ -1,0 +1,76 @@
+
+.datePicker {
+    width: 100%;
+  }
+  
+  .react-datepicker__day--selected,
+  .react-datepicker__day--keyboard-selected {
+    border-radius: 100px;
+    background-color: black;
+  }
+  .react-datepicker__day:hover {
+    border-radius: 100px;
+    background-color: #cecdcd;
+  }
+  
+  .react-datepicker__header {
+    background-color: white;
+  }
+  .react-datepicker__day {
+    width: 3rem;
+    line-height: 3rem;
+  }
+  
+  .react-datepicker__day-name {
+    width: 3rem;
+  }
+ 
+  .react-datepicker__day-names {
+    margin-top: 15px;
+  }
+  .react-datepicker__current-month {
+    margin-top: 15px;
+  }
+  
+  .react-datepicker-wrapper > div > input {
+    border: 1px solid gray;
+    width: 100%;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 12%;
+    font-size:small;
+    font-weight: bolder;
+  }
+
+  @media (min-width: 1200px) {
+    .react-datepicker-wrapper > div > input {
+  
+        
+        font-size:medium;
+      
+      }
+  }
+  .datePicker {
+    width: 100%;
+  }
+
+
+  .react-datepicker-wrapper > div > input:hover {
+    cursor: pointer;
+  }
+  
+  
+  .react-datepicker-wrapper > div > input:focus {
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  
+  .react-datepicker__input-container:focus {
+    border: 2px solid black;
+    cursor: pointer;
+  } 
+  .react-datepicker-ignore-onclickoutside {
+    border: 2px solid black;
+    cursor: pointer;
+  }

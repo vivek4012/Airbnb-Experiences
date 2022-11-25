@@ -1,0 +1,53 @@
+ 
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 30%;
+    display: block;
+    padding: 0;
+   
+    cursor: pointer;
+    background:   #1b161638;
+     
+    width: 50px;
+    height: 10%;
+    border-radius: 2014px;
+    border: none;
+    outline: none;
+    right: -50px;
+    }
+ 
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+     
+    outline: none;
+    background: #0e06068f;
+}
+
+.slick-prev{
+    font-size: 0;
+line-height: 0;
+position: absolute;
+top: 30%;
+display: block;
+padding: 0;
+transform: translate(0, -50%);
+cursor: pointer;
+background:  #1b161638;
+ 
+width: 50px;
+height: 10%;
+border-radius: 2014px;
+border: none;
+outline: none;
+left: -50px;
+}
+.filter{
+    padding: 2rem;
+}
